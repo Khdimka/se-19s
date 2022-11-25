@@ -1,4 +1,4 @@
-import axios from "axios"
+
 //export const url = "http://localhost:5001/api";
 export const url = "https://se19-project.herokuapp.com/api";
 export const setHeaders = () => {
