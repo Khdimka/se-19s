@@ -16,6 +16,7 @@ export const signUp = (user) => {
     })
     .catch(error => {
         console.log(error.responce)
+        alert("Sign Up Failed.");
     });
   };
 };
@@ -33,6 +34,7 @@ export const signIn = (creds) => {
     })
     .catch((error) => {
         console.log(error.responce)
+        alert("Sign In Failed. Wrong password or email!");
     });
   };
 };

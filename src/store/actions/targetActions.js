@@ -14,6 +14,7 @@ export const getTargets = () => {
     })
     .catch(error => {
         console.log(error.responce)
+        alert("Error");
     })
 }
 }
@@ -31,6 +32,7 @@ export const addTarget = (newTarget) =>{
         })
         .catch(error => {
             console.log(error.responce)
+            alert("Add Target Error");
             //toast.error(error.responce.data, {
             //    position: toast.POSITION.BOTTOM_RIGHT
             //})
@@ -49,6 +51,7 @@ export const updateTarget = (updatedTarget, id) => {
         })
         .catch(error => {
             console.log(error.responce)
+            alert("Update Target Error");
             //toast.error(error.responce.data, {
             //    position: toast.POSITION.BOTTOM_RIGHT
             //})
@@ -67,6 +70,7 @@ export const checkTarget = (id) => {
         })
         .catch(error => {
             console.log(error.responce)
+            alert("Check Target Error")
             //toast.error(error.responce.data, {
             //    position: toast.POSITION.BOTTOM_RIGHT
             //})
@@ -85,6 +89,7 @@ export const deleteTarget = (id) => {
         })
         .catch(error => {
             console.log(error.responce)
+            alert("Delete Target Error")
             //toast.error(error.responce.data, {
             //    position: toast.POSITION.BOTTOM_RIGHT
             //})
