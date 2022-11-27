@@ -6,12 +6,13 @@ import { useSelector } from 'react-redux';
 
 const Targets = () => {
     const auth = useSelector(state => state.auth)
+    let navigate = useNavigate()
     const [target, setTarget] = useState({
         name: '',
         isComplete: false
     })
 
-        if(!auth._id) return <useNavigate to='/signin/'/>
+        if(!auth._id) return navigate('/signin/')
 
     return ( 
         <>
