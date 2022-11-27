@@ -1,6 +1,6 @@
 
 //export const url = "http://localhost:5001/api";
-export const url = "https://se19-project.herokuapp.com/api";
+export const url = "https://se-19-b.onrender.com";
 export const setHeaders = () => {
     const headers = {
       headers: {
